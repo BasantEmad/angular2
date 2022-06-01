@@ -1,0 +1,98 @@
+
+
+
+.media{
+ 
+ margin: 100px  150px  50px 100px ;
+ border: 4px solid blue;
+
+
+}
+mr-3{
+    border: 4px solid blue;
+}
+.mr-3:hover{
+transform: scale(1.2);
+}
+.mt-0{
+    font-size: 30px;
+    font-weight: 900;
+    color: blueviolet;
+}
+p{
+    font-weight: 600;
+
+}
+.list-group{
+    width: 50%;
+    margin-left: 100px;
+}
+.list-group-item.active{
+font-size: 20px;
+font-weight: 800;
+}
+.list-group-item{
+    font-weight: 700;
+}
+.d-block{
+    width: 50%;
+    margin-left: 300px;
+}
+.container{
+margin-top: 50px;
+}
+.head{
+    font-size: 25px;
+    font-weight: 700;
+    color: blueviolet;
+
+}
+.head:hover{
+    transform: scale(1.2);
+}
+.homehead2{
+   font-size: 20px;
+  
+}
+.homeimg{
+    height: 350px !important;
+  width: 100%;
+  border: 5px solid blueviolet;
+}
+.homeimg:hover{
+    transform: scale(1.2);
+}
+h1{
+    color: blueviolet;
+    margin-bottom: 30px; 
+}
+h1:hover{
+    transform: scale(1.2);
+}
+
+
+a{
+    color: rgb(42, 122, 26) !important;
+    font-size: 20px;
+    
+}
+.myclass:before {
+    content: '\f017';
+    /* font-family: 'Font Awesome 5 Brands'; If using Brand */
+    font-family: 'Font Awesome 5 Free';
+    /* font-weight: 400;  If using Brands or Regular */
+    font-weight: 900;
+}
+.fab.fa-facebook{
+    color: red !important;
+}
+@media screen and (max-width:800px) {
+    .media{
+        width: 100%;
+        margin-left: 0px;
+    }
+   .d-block{
+       width: 75%;
+       margin-left: 80px;
+   }
+}

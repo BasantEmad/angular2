@@ -1,0 +1,32 @@
+
+a,h3{
+    display: block;
+    font-size: 20px;
+    color: blueviolet;
+    font-style: italic;
+    font-weight: 500;
+    margin: 10px;
+   
+}
+.container{
+    margin-top: 400px;
+}
+.fab.fa-facebook,.fab.fa-whatsapp,.fab.fa-twitter,.fab.fa-instagram,.fab.fa-facebook-messenger{
+    font-size: 35px;
+  
+}
+.fab.fa-facebook{
+    color: blue !important;
+}
+.fab.fa-whatsapp{
+    color: rgb(134, 218, 8);
+}
+.fab.fa-twitter{
+    color: rgb(73, 204, 255);
+}
+.fab.fa-instagram{
+    color: rgb(255, 70, 224);
+}
+.fab.fa-facebook-messenger{
+    color: rgb(62, 146, 243);
+}

@@ -1,0 +1,104 @@
+.atm{
+    
+    height: 200px;
+background: linear-gradient( to left , blueviolet , wheat 60%);
+margin-top: 100px;
+
+}
+
+h2{
+    font-size: 50px;
+    color: blueviolet;
+    font-weight: 700;
+    margin-left: 70px;
+    
+}
+.atms{
+    font-weight: 900;
+}
+.col-sm-6{
+    border: 2px solid blue;
+}
+h3{
+    font-size: 40px;
+    color: blueviolet;
+    margin-top: 50px;
+    text-align: center;
+}
+label{
+    font-weight: 900;
+    font-size: 20px;
+}
+.form-control{
+    border: 2px solid blue;
+    margin: 13px;
+    width: 85%;
+    height: 40px;
+
+}
+input{
+    
+    border: 2px solid blue;
+    margin: 80px  10px 50px 15px;
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+
+}
+button{
+    width: 60%;
+    height: 40px;
+    border: 2px solid blue;
+    color:wheat ;
+    background-color: blueviolet;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    margin: 10px  10px 50px 60px;
+}
+.container{
+    margin-top: 50px;
+    background: linear-gradient( to left , wheat , white 60%)
+
+}
+.branche{
+  
+    font-size: 30px;
+    color: blueviolet;
+    margin-left: 40px;
+
+}
+.fas.fa-map-marker{
+ color: blue;
+
+}
+.branche2{
+    margin-left: 50px;
+    font-weight: 800;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.branche3{
+    margin-left: 65px;
+    
+    margin-top: 10px;
+    font-size: 20px;
+  
+}
+.divbranche{
+    display: inline;
+}
+.container2{
+    border: 2px solid blueviolet;
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 50px;
+    background: linear-gradient( to left , wheat , white 60%)
+}
+@media screen and (max-width:800px){
+ .container2{
+     margin-left: 0px;
+     width: 100%;
+ }   
+}

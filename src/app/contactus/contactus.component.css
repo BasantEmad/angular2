@@ -1,0 +1,63 @@
+.fdiv{
+    border: 2px solid rgb(194, 179, 209);
+    padding: 150px;
+    background-color: rgb(194, 179, 209) ;
+    z-index: 1;
+}
+.contact{
+    border: 2px solid gray;
+    width: 70%;
+    margin-left: 100px;
+    z-index: 2;
+    margin-top: -150px;
+    background: linear-gradient( to left , wheat , white 60%) ;
+
+}
+h1{
+    margin: 50px 30px;
+    color: blue;
+    font-weight: 700;
+    font-style: italic;
+}
+h1:hover{
+    transform: scale(1,2);
+}
+h6{
+    margin-left: 20px;
+}
+img{
+    width: 30%;
+    margin-left: 50px;
+}
+img:hover{
+    transform: scale(1,2);
+}
+h3{
+color: blueviolet;
+font-style: italic;
+margin-bottom: 20px;
+}
+h6,p{
+    font-weight: 700;
+}
+.contact2{
+    border: 2px solid gray;
+    width: 70%;
+    margin-left: 100px;
+ 
+    margin-top: 50px;
+    
+}
+@media screen and (max-width:800px){
+    .contact{
+        margin-left: 0px;
+        width: 95%;
+    }
+     .contact2{
+        margin-left: 100px;
+        
+    }
+    iframe{
+        width: 100%;
+    }
+}

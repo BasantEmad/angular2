@@ -1,0 +1,21 @@
+.navbar-brand{
+   color: blue;
+   font-weight: 900;
+   font-size: 40px;
+}
+.navbar-brand:hover{
+   color: blueviolet !important; 
+  
+}
+.nav-link{
+   color: blueviolet !important; 
+   font-weight: 900;
+   text-decoration: underline;
+
+}.nav-link:hover{
+    color: green !important;
+    font-size: 20px;
+}
+.navbar.navbar-expand-lg{
+   background: linear-gradient( to left ,black , white 50%)
+}
